@@ -1,0 +1,223 @@
+.panelRow p {
+    color: #17161e;
+    padding-left: 10px;
+    padding-right: 40px;
+    font-size: 16;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    text-align: right;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background: #f1f1f1;
+    background-image: url("https://digital.thecatcompanyinc.com/wp-content/uploads/2018/06/master-blockchain-featured.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(30%) opacity(90%);
+    background-position: center;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: #fafafa
+}
+
+.header p {
+    display: block;
+    border-radius: 30;
+    font-size: 20px;
+    color: #ffffff
+}
+.dot {
+  /* this is the dot that will be shown on hover */
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  visibility: hidden; /* the dot is initially hidden */
+  animation: bounce 0.6s linear infinite; /* this will make the dot bounce */
+  }
+  @keyframes bounce {
+    /* this is the keyframe animation that makes the dot bounce */
+    0% {
+      top: -20px;
+    }
+    50% {
+      top: -15px;
+    }
+    100% {
+      top: -20px;
+    }
+  }
+
+.topnav {
+    overflow: hidden;
+    background: linear-gradient(to bottom, #00cc66, #00dcc4);
+}
+
+.topnav a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    float: left;
+    font-size: 30px;
+    position: relative;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    box-shadow: 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.topnav a:hover {
+    color: rgb(255, 255, 255);
+    transform: translateY(-3px);
+    transition: all 0.3s ease-in-out;
+}
+
+.topnav a:active {
+    background-color: #562ff5;
+}
+.dot {
+  /* this is the dot that will be shown on hover */
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
+  visibility: hidden; /* the dot is initially hidden */
+  animation: bounce 1.8s linear forwards; /* this will make the dot bounce */
+}
+
+@keyframes bounce {
+  /* this is the keyframe animation that makes the dot bounce */
+  0% {
+    top: 65px;
+    /* filter: opacity(100); */
+  }
+  100% {
+    top: 55px;
+    /* filter: opacity(0); */
+  }
+}
+
+a:hover .dot {
+  /* when the user hovers over the link, the dot will be shown */
+  visibility: inherit;
+  /* you can use the following styles to position the dot above the link */
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.panelRow {
+    display: flex;
+}
+.panelRow {
+    background-color: #ffffff;
+}
+.leftPanel {
+    background-color: #ffffff;
+    width: 75%;
+    float: right;
+}
+.rightPanel {
+    padding-left: 10px;
+    width: 25%;
+    float: left;
+    background-color: #ffffff;
+}
+.aboutMe {
+    padding:30px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.aboutMeText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+button {
+    position: relative;
+    display: block;
+    text-align: right;
+    padding: 30px;
+
+}
+img {
+    position: relative;
+    width: 100%;
+}
+.myImage {
+    margin-top: 50px;
+    align-items: center;
+    width: 70%;
+    border-radius: 100%;
+}
+.cardElement {
+    border-radius: 10px;
+    padding-left: 20px;
+    display: block;
+    padding-bottom: 30px;
+    background-color: #fffbfb !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.cardElement img {
+    width: 97%;
+    height: 200px;
+    margin-top: -10px;
+    padding-left: 10px;
+}
+
+.cardElement h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #161323;
+    font-weight: 700;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+.cardElement p {
+    color: #17161e;
+    padding-left: 10px;
+    padding-right: 40px;
+    font-size: 20;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+button {
+    color: white;
+    position:relative;
+    text-align: right;
+    background: linear-gradient(to bottom,  #00cc66, #00e676);
+    font-size: 16px;
+    padding: 12px 24px; 
+    border: none;
+    border-radius: 50px;
+    /* this will make the button pill-shaped */
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.3s ease-in-out;
+    /* this will add a smooth transition effect */
+}
+
+button:hover {
+    /* this will change the button's appearance when the user hovers over it */
+    background: linear-gradient(to bottom, #00cc66, #00e676);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-3px);
+    /* this will create a subtle animation effect */
+}
+
+button:active {
+    /* this will change the button's appearance when the user clicks on it */
+    background: linear-gradient(to bottom, #00cc66, #00e676);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate
+}
